@@ -1,3 +1,5 @@
+# originally sourced: https://github.com/mirantis-field/pacman-nodejs.git 
+
 # pacman
 
 Pac-Man
