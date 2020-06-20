@@ -1,0 +1,12 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: pacman
+spec:
+  rules:
+    - host: pacman.kube.maws.mr.dtcntr.net
+      http:
+        paths:
+          - backend:
+              serviceName: pacman
+              servicePort: 80
